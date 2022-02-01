@@ -1,5 +1,5 @@
 const mongoose=require("mongoose");
-const User=require('../models/Users')
+const User=require('./Users')
 const profileSchema=new mongoose.Schema({
     user:{
         type:mongoose.Schema.Types.ObjectId,
